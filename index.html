@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js</script>
+        <![endif]-->
+        
+        <script src="script/jquery.js"></script>
+        <script src="script/game.js"></script>
+        <script src="script/jquery-ui/js/jquery-ui-1.10.2.custom.min.js"></script>
+        
+        <link rel=stylesheet type="text/css" href="style/index.css">
+        <link rel=stylesheet type="text/css" href="style/game.css">
+        <meta charset="utf-8" />
+        
+        <title>Puzzler !</title>
+	</head>
+    
+    <body>
+    	<div id="game_main_wrap">
+        	<header>
+            	Puzzler - 157959
+            </header>
+        	<table id="game_table_wrap_main">
+            	<tr id="game_wrap_dragdrop1">
+                	<td class="game_table_col">
+                    	<div id="game_toolbox">
+                        	<table id="game_table_toolbox">
+                            	
+                            </table>
+                        </div>
+                    </td>
+                    <td class="game_table_col">
+                    	<div id="game_gametable">
+                        	<table id="game_table_game">
+                            	
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+                <tr id="game_wrap_part2">
+                	<td class="game_table_col">
+                    	<div id="game_score">
+                        	<div id="game_score_header">
+                            	<p>Score</p>
+                            </div>
+                            <p id="score_1"></p>
+                            <p id="score_2"></p>
+                            <p id="score_3"></p>
+                        </div>
+                    </td>
+                    <td class="game_table_col">
+                    	<div id="game_picture">
+                        	<img id="img_full" alt="Image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <footer>
+            	<input type="button" value="Nouveau jeu" onClick="actionNewGame()" />
+                <select name="difficulty" id="sel_difficulty">
+                	<option value="0">Facile</option>
+                    <option value="1">Moyen</option>
+                    <option value="2">Difficile</option>
+                </select>
+                
+                <p id="chrono_p"></p>
+            </footer>
+        </div>
+        
+        <footer>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,170 @@
+/* CSS Document */
+
+#game_main_wrap{
+	width: 800px;
+	height: 670px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border-radius: 10px;
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	
+	/* Compatibilité pour le linear-gradient */
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top, rgb(255,255,255) 0%, rgb(229,229,229) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,255,255)), color-stop(100%,rgb(229,229,229)));
+	background: -o-linear-gradient(top, rgb(255,255,255) 0%,rgb(229,229,229) 100%); 
+	background: -ms-linear-gradient(top, rgb(255,255,255) 0%,rgb(229,229,229) 100%);
+	background: linear-gradient(to bottom, rgb(255,255,255) 0%,rgb(229,229,229) 100%);
+
+}
+
+#game_main_wrap header{
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	vertical-align:middle;
+	font-family: "Segeo UI", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#game_main_wrap footer{
+	width: 100%;
+	height: 35px;
+	vertical-align: middle;
+}
+
+/* Paramètres de la table */
+#game_table_wrap_main{
+	width: 100%;
+	height: 600px;	
+	display: table;
+}
+
+#game_table_wrap_main td{
+	display: table-cell;
+}
+
+#game_table_wrap_main tr{
+	display: table-row;
+}
+
+#game_table_wrap_main div{
+	vertical-align: middle;
+	text-align: center;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td.game_table_col{
+	width: 400px;
+}
+
+#game_wrap_dragdrop1 #game_wrap_part2{
+	height: 300px;
+}
+
+#game_wrap_dragdrop1{
+	display: block;
+}
+
+/* pièces du puzzle */
+#game_toolbox{
+	width: 290px;
+	height: 290px;
+}
+
+#game_toolbox table{
+	display: table;
+	border-spacing: 10px 10px;
+	empty-cells: show;
+	margin: auto;
+}
+
+#game_toolbox tr{
+	display: table-row;
+	height: 80px;
+}
+
+#game_toolbox td{
+	display: table-col;
+	width: 80px;
+}
+
+#game_toolbox div{
+	width: 80px;
+	height: 80px;
+}
+
+/* Table du puzzle */
+#game_gametable{
+	width: 250px;
+	height: 250px;
+}
+
+#game_gametable table{
+	display: table;
+	border-collapse: collapse;
+}
+
+#game_gametable tr{
+	display: table-row;
+	height: 80px;
+	
+}
+
+#game_gametable td{
+	display: table-col;
+	width: 80px;
+	border: #000 solid 1px;
+}
+
+#game_gametable img{
+	width: inherit;
+	height: inherit;
+}
+
+/* image originale */
+#game_picture{
+	width: 240px;
+	height: 240px;
+}
+
+#game_picture img{
+	width: inherit;
+	height: inherit;
+}
+
+/* Score */
+#game_score{
+	width: 240px;
+	height: 100px;
+	background-color: #FFFED2;
+	border: #000 solid 1px;
+}
+
+#game_score_header{
+	font-size: 14px;
+	font-family: "Segeo UI", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#game_score_header p{
+	margin: 0;
+}
+
+#chrono_p{
+	float: right;
+	font-family: "Segeo UI", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	margin-right: 5px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
